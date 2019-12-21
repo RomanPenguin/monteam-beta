@@ -1,29 +1,36 @@
 <template>
-    <div class="font-sans antialiased">
-        <ul class="flex p-4 shadow-md ">
-            <li class="mr-6">
-                <i class="fas fa-bars"></i>
-            </li>
-            <li class="mr-2">
-                <a href="#">December</a>
-            </li>
-            <li class="">
-                <i class="fas fa-sort-down"></i>
-            </li>
-            <li class="mr-6 right-0 absolute">
-                <i class="fas fa-calendar-alt"></i>
-            </li>
+    <header class="bg-gray-300 md:flex md:justify-between md:items-center md:px-4 md:py-3">
+        <div class="flex items-center justify-between px-4 py-3 md:p-0">
 
-
-        </ul>
-    </div>
+            <div class="md:hidden outline-none">
+                <button @click="isOpen = !isOpen" type="button">
+                    <font-awesome-icon icon="bars"/>
+                </button>
+            </div>
+            <div>
+                <p>hello</p>
+            </div>
+        </div>
+        <nav :class="isOpen ? 'block' : 'hidden'" class="px-2 pt-2 pb-4 md:flex md:p-0">
+            <a href="#" class="mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800">List your
+                property</a>
+            <a href="#" class="mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 sm:mt-0 sm:ml-2">Trips</a>
+            <a href="#" class="mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 sm:mt-0 sm:ml-2">Messages</a>
+        </nav>
+    </header>
 </template>
 
 <script>
-    import '../assets/css/main.css'
+    // import '../assets/css/main.css'
     export default {
-        name: "Header.vue"
+        data()
+        {
+            return {
+                isOpen: false,
+            }
+        },
     }
+
 </script>
 
 <style scoped>
