@@ -15,9 +15,12 @@
             </div>
         </div>
         <nav :class="isOpen ? 'block' : 'hidden'" class="px-2 pt-2 pb-4 md:flex md:p-0">
-            <a href="./index.html" class="mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-red-900 sm:mt-0 sm:ml-2">Schedule</a>
-            <a href="./weekly_view.html" class="mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-red-900 sm:mt-0 sm:ml-2">Week</a>
-            <a href="./monthly_view.html" class="mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-red-900 sm:mt-0 sm:ml-2">Monthly</a>
+            <a href="./index.html"
+               class="mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-red-900 sm:mt-0 sm:ml-2">Schedule</a>
+            <a href="./weekly_view.html"
+               class="mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-red-900 sm:mt-0 sm:ml-2">Week</a>
+            <a href="./monthly_view.html"
+               class="mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-red-900 sm:mt-0 sm:ml-2">Monthly</a>
         </nav>
     </header>
 </template>
