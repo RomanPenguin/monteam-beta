@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+PRODID:-//Facebook//NONSGML Facebook Events V1.0//EN
+X-WR-CALNAME:Kevin Chen's Facebook events
+X-PUBLISHED-TTL:PT12H
+X-ORIGINAL-URL:/events/
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTAMP:20191123T033532Z
+LAST-MODIFIED:20191123T033532Z
+CREATED:20190903T030927Z
+SEQUENCE:6999965
+ORGANIZER;CN=Katelyn:MAILTO:noreply@facebookmail.com
+DTSTART:20200101T030000Z
+DTEND:20200101T060000Z
+UID:e362072134699575@facebook.com
+SUMMARY:PROTEST TO MAKE KFC 24 HOUR
+LOCATION:KFC
+URL:https://www.facebook.com/events/362072134699575/
+DESCRIPTION:For far too long Aussies have been
+  deprived of delicious\, golden fri
+ ed chicken at 3am in the morning. 
+ Unfortunately most KFC stores in A
+ ustralia close well before the mid
+ night munchies kick in\, forcing ma
+ ny of us to go home empty handed a
+ nd hungry. KFC can help fix this p
+ roblem by putting 24/7 Drive-Thru'
+ s into place. With your help\, we c
+ an end this problem and bring peac
+ e to our stomachs. \n\nhttps://www.f
+ acebook.com/events/362072134699575
+ /
+CLASS:PUBLIC
+STATUS:CONFIRMED
+PARTSTAT:TENTATIVE
+END:VEVENT
+END:VCALENDAR
